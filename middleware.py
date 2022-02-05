@@ -1,4 +1,5 @@
 import eel
+import Progress
 from greatest_common_divisor import gcd
 
 
@@ -17,5 +18,6 @@ def factorization_middle(number):
         number = int(number)
     except:
         number = 1
+
     # тут вставить код для факторизации
-    return f"2*3*6+-{number}"
+    return Progress.fact(number)
