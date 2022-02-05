@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-3 text-center mb-3">Введите числа</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="number"
+                         id="a-input-value"
+                         class="form-control form-control-lg"
+                         placeholder="Введите значение числа а">
+
+                        <input type="number"
+                         id="b-input-value"
+                         class="form-control form-control-lg"
+                         placeholder="Введите значение числа b">
+                    </div>
+
+
+                </form>
+
+                <h1 class="display-4 text-center mt-4 mb-4">НОД</h1>
+                <div>
+                    <div class="input-group mt-2 mb-2">
+                        <span class="input-group-addon my-width">НОД</span>
+                        <input id="result-nod-inp" type="number" class="form-control" aria-label="НОД чисел">
+                    </div>
+                </div>
+
+                <h1 class="display-4 text-center mt-4 mb-4">Факторизация</h1>
+                <div>
+                    <div class="input-group mt-2 mb-2">
+                        <span class="input-group-addon my-width">A =</span>
+                        <input id="result-a-inp" type="text" class="form-control" aria-label="Факторизация A">
+                    </div>
+
+                    <div class="input-group mt-2 mb-2">
+                        <span class="input-group-addon my-width">B =</span>
+                        <input id="result-b-inp" type="text" class="form-control" aria-label="Факторизация B">
+                    </div>
+                </div>
+
+                <button id="start-check" class="btn btn-info btn-lg btn-block" type="button">Проверить числа</button>
+            </div>
+
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
