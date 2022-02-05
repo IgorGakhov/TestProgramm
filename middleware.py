@@ -1,5 +1,6 @@
 import eel
 import Progress
+from greatest_common_divisor import gcd
 
 
 @eel.expose
@@ -9,7 +10,7 @@ def gcd_middle(number_a, number_b):
     except:
         number_a, number_b = 1, 1
     # тут вставить код для вызова gcd
-    return number_a+number_b
+    return gcd(number_a, number_b)
 
 @eel.expose
 def factorization_middle(number):
